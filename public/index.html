@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bot FURIA Fans</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="mascote">
+      <img src="./images/furia_logo-removebg-preview.png" alt="Mascote FURIA" />
+    </div>
+    <div class="chatbox">
+      <div id="chat" class="chat"></div>
+      <div class="input-area">
+        <input type="text" id="userInput" placeholder="Digite sua mensagem..." onkeypress="if(event.key === 'Enter') sendMessage()" />
+        <button onclick="sendMessage()">Enviar</button>
+      </div>
+      <div class="buttons">
+        <button onclick="iniciarQuiz()">Quiz</button>
+<button onclick="mostrarAlbum()">Álbum</button>
+        <button onclick="handleOption('notícia')">Notícias</button>
+        <button onclick="handleOption('agenda')">Agenda</button>
+        <button onclick="handleOption('resultado')">Resultados</button>
+        <button onclick="handleOption('jogadores')">Jogadores</button>
+        <button onclick="mostrarRanking()">Ranking</button>
+
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+    "name": "bot-furia",
+    "version": "1.0.0",
+    "description": "Projeto Bot FURIA - Frontend e Backend",
+    "main": "servidor.js",
+    "scripts": {
+      "start": "node servidor.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }
+  

@@ -1,0 +1,134 @@
+/* Estilo atualizado para o Bot FURIA */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0e0e1a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  max-width: 900px;
+  width: 100%;
+  gap: 20px;
+  padding: 10px;
+}
+
+.mascote {
+  width: 100px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.mascote img {
+  width: 80px;
+  height: auto;
+}
+
+.chatbox {
+  flex: 1;
+  background: #1c1c2b;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 15px;
+  border: 1px solid #333;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  background-color: #252538;
+  scroll-behavior: smooth;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.input-area button {
+  background-color: #ffcc00;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 18px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.input-area button:hover {
+  background-color: #ffd633;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.buttons button {
+  flex: 1 1 45%;
+  padding: 10px;
+  background-color: #282846;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+
+.buttons button:hover {
+  background-color: #404066;
+}
+
+.message {
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 10px;
+  max-width: 85%;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+
+.message.user {
+  align-self: flex-end;
+  background-color: #0066cc;
+  color: #fff;
+}
+
+.message.bot {
+  align-self: flex-start;
+  background-color: #333;
+}
+
+.figurinha img {
+  width: 80px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 2px solid #ffcc00;
+  background-color: #fff;
+  padding: 4px;
+}
