@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Bot FURIA Fans</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="chat-container">
+    <img src="./images/furia_logo-removebg-preview.png" alt="Logo FURIA" class="logo">
+    <div class="chat-header">
+      Bem-vindo ao Bot FURIA! Digite um comando ou clique nos botões.
+    </div>
+
+    <div id="chatBox"></div>
+
+    <div class="input-area">
+      <input type="text" id="messageInput" placeholder="Digite sua mensagem...">
+      <button id="sendButton">Enviar</button>
+    </div>
+
+    <div class="button-row">
+      <button class="action-button" onclick="sendQuickMessage('Clãs')">Clãs</button>
+      <button class="action-button" onclick="sendQuickMessage('Notícias')">Notícias</button>
+      <button class="action-button" onclick="sendQuickMessage('Resultados')">Resultados</button>
+      <button class="action-button" onclick="sendQuickMessage('Atuais')">Atuais</button>
+      <button class="action-button" onclick="sendQuickMessage('Agenda')">Agenda</button>
+      <button class="action-button" onclick="sendQuickMessage('Jogadores')">Jogadores</button>
+      <button class="action-button" onclick="sendQuickMessage('Ranking')">Ranking</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
