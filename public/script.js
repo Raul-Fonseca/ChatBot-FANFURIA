@@ -215,7 +215,7 @@ async function handleFallback(pergunta) {
     const res = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
       headers: {
-        'Authorization': 'CHAVE API DO GPT AQUI',
+        
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
